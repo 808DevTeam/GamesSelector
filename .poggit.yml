@@ -1,0 +1,7 @@
+--- # Poggit-CI Manifest. Open the CI at https://poggit.pmmp.io/ci/808DevTeam/GamesSelector
+branches:
+- master
+projects:
+  GamesSelector:
+    path: ""
+...
