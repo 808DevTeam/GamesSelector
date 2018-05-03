@@ -24,7 +24,7 @@ public function onEnable(): void {
            $inventory = $player->getInventory();
            $player->getInventory()->setItem(2, Item::get(345)->setCustomName("§a§lGames Selector\n§5§lSelect a Game to play!\n(§bTap me!)"));
        $item = $ev->getItem();
-          if($item->getCustomName() == "§a§lGames Selector!\n§5Select a Game to play!\n(§bTap me!)"){
+          if($item->getCustomName() == "§b§lGames Selector!\n§bSelect a Game to play!\n(§bTap me!)"){
               
             $player->getInventory()->clearAll();
             $player->getInventory()->setSize(9);
